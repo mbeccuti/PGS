@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "\\name{Predictive_Power}\n\\alias{Predictive_Power}\n%- Also NEED an '\\alias' for EACH other topic documented here.\n\\title{\n%%  ~~function to do ... ~~\nPredictive_Power\n}\n\\description{\n%%  ~~ A concise (1-5 lines) description of what the function does. ~~\nPredictive_Power is used to fit logistic regression model using DEG gene expression to predict the class labels of the samples. It creates two outputs: a distribution of predictive power associated to each DEG and a Binary Matrix of predicted class labels.\n}\n\\usage{\nPredictive_Power(X, y, intercept = TRUE, pp_thr, q_thr)\n}\n%- maybe also 'usage' for other objects documented here.\n\\arguments{\n\n  \\item{X}{Matrix containing predictors values.}\n  \\item{y}{True classification vector.}\n  \\item{intercept}{Logical. To include the intercept in the regression model. The default setting is TRUE.}\n  \\item{pp_thr}{The threshold to switch from the fitted probabilities to predicted class labels. The default value is 0.5}\n  \\item{q_thr}{The quantile of the Predictive Powers distribution to be chosen as 'Good Predictors'. The defaul setting is 0.95}\n}\n\\details{\n%%  ~~ If necessary, more details than the description above ~~\n}\n\\value{\nPredictive_Power returns two files: Predictors_pp and Good_Predictors.\n\nPredictors_pp contains all the predictors names with the associated predictive power.\nGood_Predictors is the binary matrix containing the class labels of the samples predicted by the DEGs belonging to the selected quantile (qq_thr) of the  Predictors_pp distribution.\n}\n\\references{\n  Liao J, Chin KV.\n  Logistic regression for disease classification using microarray data:\n    model selection in a large p and small n case.\n  Bioinformatics. 2007;23(15):1945--1951.\n\n  Van't Veer, Laura J., et al. \"Gene expression profiling predicts clinical outcome of breast cancer.\" nature 415.6871 (2002): 530-536.\n}\n\n\\author{\n  Federica Martina\n}\n\\note{\n%%  ~~further notes~~\n}\n\n%% ~Make other sections like Warning with \\section{Warning }{....} ~\n\n\\seealso{\n%% ~~objects to See Also as \\code{\\link{help}}, ~~~\n}\n\\examples{\n## The function is currently defined as\n\nPredictive_Power('Matrix_Genes', 'classification_vector', intercept = T, pp_thr = 0.6, q_thr = .95)\n\n}\n% Add one or more standard keywords, see file 'KEYWORDS' in the\n% R documentation directory.\n\\keyword{ ~kwd1 }% use one of  RShowDoc(\"KEYWORDS\")\n\\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line\n",
+    "created" : 1490354875075.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4213052172",
+    "id" : "8462A5A9",
+    "lastKnownWriteTime" : 1490369139,
+    "last_content_update" : 1490369139300,
+    "path" : "~/Documents/PGS/man/Predictive_Power.Rd",
+    "project_path" : "man/Predictive_Power.Rd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}

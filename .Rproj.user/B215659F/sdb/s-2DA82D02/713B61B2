@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\\name{DEG_detection}\n\\alias{DEG_detection}\n%- Also NEED an '\\alias' for EACH other topic documented here.\n\\title{\nDEG_detection\n}\n\\description{\nDEG_detection uses 'limma' package to detect differentially expressed genes.\nIt creates a matrix containing all the DEG detected in the gene expression data set in input using the contrast file.\n}\n\\usage{\nDEG_detection(X,y)\n}\n%- maybe also 'usage' for other objects documented here.\n\\arguments{\n  \\item{X}{\n  Gene expression matrix\n  }\n  \\item{y}{\n  contrast file\n  }\n}\n\\details{\n%%  ~~ If necessary, more details than the description above ~~\n}\n\\value{\nDEG_detection returns DEGs_file, containing the gene expression of the DEG detected by 'limma' package.\n\nThe function also displays the number of DEGs detected.\n\n}\n\\references{\nRitchie ME, Phipson B, Wu D, Hu Y, Law CW, Shi W and Smyth GK (2015). “limma powers differential expression analyses for RNA-sequencing and microarray studies.” Nucleic Acids Research, 43(7), pp. e47.\n}\n\\author{\nFederica Martina\n}\n\\note{\n%%  ~~further notes~~\n}\n\n%% ~Make other sections like Warning with \\section{Warning }{....} ~\n\n\\seealso{\n%% ~~objects to See Also as \\code{\\link{help}}, ~~~\n}\n\\examples{\n\n## The function is currently defined as\nDEG_detection('Matrix_Genes', 'contrast_file')\n\n}\n% Add one or more standard keywords, see file 'KEYWORDS' in the\n% R documentation directory.\n\\keyword{ ~kwd1 }% use one of  RShowDoc(\"KEYWORDS\")\n\\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line\n",
+    "created" : 1490370372311.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3300769069",
+    "id" : "713B61B2",
+    "lastKnownWriteTime" : 1490370381,
+    "last_content_update" : 1490370381449,
+    "path" : "~/Documents/PGS/man/DEG_detection.Rd",
+    "project_path" : "man/DEG_detection.Rd",
+    "properties" : {
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}

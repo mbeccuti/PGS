@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "\\name{SelectPredictor}\n\\alias{SelectPredictor}\n%- Also NEED an '\\alias' for EACH other topic documented here.\n\\title{\nSelectPredictor\n}\n\\description{\nSelectPredictors takes a gene expression matrix with two values for each samples and compute the fold-change, defined as the difference in the gene expression levels between the two condition tested in the experiment. It returns a file containing only one value for each sample.\n}\n\\usage{\nSelectPredictor(X)\n}\n%- maybe also 'usage' for other objects documented here.\n\\arguments{\n  \\item{X}{\nA gene expression matrix where each sample has two paired columns containing the gene expression levels of the DEGs detected using DEG_detection function in the two different biological condition tested.\n}\n}\n\\details{\n%%  ~~ If necessary, more details than the description above ~~\n}\n\\value{\nSelectPredictor creates a file containing a gene expression matrix where each column contains the difference in the gene expression levels for each sample.\n}\n\\references{\n%% ~put references to the literature/web site here ~\n}\n\\author{\nFederica Martina\n}\n\\note{\n%%  ~~further notes~~\n}\n\n%% ~Make other sections like Warning with \\section{Warning }{....} ~\n\n\\seealso{\n%% ~~objects to See Also as \\code{\\link{help}}, ~~~\n}\n\\examples{\n\n\n## The function is currently defined as\nSelectPredictor('DEGs_file')\n\n}\n% Add one or more standard keywords, see file 'KEYWORDS' in the\n% R documentation directory.\n\\keyword{ ~kwd1 }% use one of  RShowDoc(\"KEYWORDS\")\n\\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line\n",
+    "created" : 1490369934889.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1215821484",
+    "id" : "FBA19072",
+    "lastKnownWriteTime" : 1490370429,
+    "last_content_update" : 1490370429261,
+    "path" : "~/Documents/PGS/man/SelectPredictor.Rd",
+    "project_path" : "man/SelectPredictor.Rd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}

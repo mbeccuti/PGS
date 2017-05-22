@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "Package: PGS\nType: Package\nTitle: PGS-Peculiar Genes Selection: a feature selection procedure for binary classification tasks. \nVersion: 0.1.0\nAuthor: Federica Martina\nMaintainer: The package maintainer <federica.martina@unito.it>\nDescription: PGS is a 3 steps feature selection procedure for binary classification tasks in case of High-Throughput data. \nLicense: What license is it under?\nEncoding: UTF-8\nLazyData: true\n",
+    "created" : 1489996133682.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4220282721",
+    "id" : "2167EA99",
+    "lastKnownWriteTime" : 1489996476,
+    "last_content_update" : 1489996476756,
+    "path" : "~/Documents/PGS/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "dcf"
+}

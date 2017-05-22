@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "\\name{BinaryMatrix}\n\\alias{BinaryMatrix}\n%- Also NEED an '\\alias' for EACH other topic documented here.\n\\title{\nBinaryMatrix\n}\n\\description{\nBinaryMatrix takes the file 'Good_Predictors' created by Predictive_Power function and creates a list of files containing the final signature, the two lists of peculiar genes for the two classes.\n}\n\\usage{\nBinaryMatrix(binary_matrix_file, thr_low, thr_high, classification_vector_file)\n}\n%- maybe also 'usage' for other objects documented here.\n\\arguments{\n  \\item{binary_matrix_file}{ the 'Good_Predictors' file created by Predictive_Power function\n}\n \\item{thr_low}{The threshold identifying the most misclassified subjects in class 0}\n \\item{thr_high}{The threshold identifying the most misclassified subjects in class 1}\n \\item{classification_vector_file}{A file containing the true classification labels of the samples}\n}\n\\details{\n%%  ~~ If necessary, more details than the description above ~~\n}\n\\value{\nBinaryMatrix creates three files:\n- 'Final_Signature' containing all the peculiar genes\n- 'Signature_High' containing the list of peculiar genes for class 1\n- 'Signature_Low' containing the list of peculiar genes for class 0.\n}\n\\references{\n%% ~put references to the literature/web site here ~\n}\n\\author{\nFederica Martina\n}\n\\note{\n%%  ~~further notes~~\n}\n\n%% ~Make other sections like Warning with \\section{Warning }{....} ~\n\n\\seealso{\n%% ~~objects to See Also as \\code{\\link{help}}, ~~~\n}\n\\examples{\n## The function is currently defined as\nBinaryMatrix('Good_Predictors', 20, 165, 'classification_vector')\n\n}\n% Add one or more standard keywords, see file 'KEYWORDS' in the\n% R documentation directory.\n\\keyword{ ~kwd1 }% use one of  RShowDoc(\"KEYWORDS\")\n\\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line\n",
+    "created" : 1490370360158.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1747527184",
+    "id" : "4640AB65",
+    "lastKnownWriteTime" : 1490370384,
+    "last_content_update" : 1490370384102,
+    "path" : "~/Documents/PGS/man/BinaryMatrix.Rd",
+    "project_path" : "man/BinaryMatrix.Rd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}

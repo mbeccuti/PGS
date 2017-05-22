@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "SelectPredictor <- function(Gene_expression_file){\n  \n  if(!file.exists(Gene_expression_file))\n  {\n    print(paste('File Gene_expression:', Gene_expression_file,'not found \\n'))\n    return(NULL);\n  }\n  \n  Gene_expression <- read.table(file = Gene_expression_file, header = T,  sep= '\\t');\n  PredictorsMatrix <-  as.character(Gene_expression[,1]);\n  \n  x <- seq(2, ncol(Gene_expression)-1, 2)\n  \n  for(i in x)\n  {\n     FC_i <- Gene_expression[, i+1] - Gene_expression[ ,i]\n     PredictorsMatrix = cbind(PredictorsMatrix,FC_i)\n  }  \n    \n  \n  \n  colnames(PredictorsMatrix) <- colnames(Gene_expression)[seq(from = 1, to = ncol(Gene_expression), by = 2)]\n  \n  write.table(PredictorsMatrix,\n              file = 'Predictors_Matrix',\n              sep = '\\t',\n              col.names = T,\n              row.names = F);\n  \n}",
+    "created" : 1490369918558.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1955142899",
+    "id" : "5E7FBF75",
+    "lastKnownWriteTime" : 1489996122,
+    "last_content_update" : 1489996122,
+    "path" : "~/Documents/PGS/R/Select_Predictors.R",
+    "project_path" : "R/Select_Predictors.R",
+    "properties" : {
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
