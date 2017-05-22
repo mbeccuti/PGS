@@ -1,0 +1,10 @@
+Package: PGS
+Type: Package
+Title: PGS-Peculiar Genes Selection: a feature selection procedure for binary classification tasks. 
+Version: 0.1.0
+Author: Federica Martina
+Maintainer: The package maintainer <federica.martina@unito.it>
+Description: PGS is a 3 steps feature selection procedure for binary classification tasks in case of High-Throughput data. 
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
