@@ -13,7 +13,13 @@ PGS is a quick and useful tool to extract signature for classification tasks fro
 
 ## Installation
 
-install.packages(PGS)
+
+To install it you can use use **devtools**:
+```
+install.packages("devtools")
+library(devtools)
+install_github("beccuti/PGS", ref="master")
+```
 
 
 
